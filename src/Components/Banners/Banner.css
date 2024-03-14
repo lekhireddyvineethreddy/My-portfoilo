@@ -1,0 +1,27 @@
+.Flow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #242424;
+    height: 200px; /* Specify the height to create scroll effect */
+    overflow: hidden; /* Hide overflow to create scroll effect */
+}
+
+.Arrow {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid orange;
+    margin: 5px;
+    animation: flowDown 2s linear infinite; /* Apply animation */
+}
+
+@keyframes flowDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
