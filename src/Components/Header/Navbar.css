@@ -1,82 +1,23 @@
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #191919;
-  color: #fff;
-  padding: 20px 20px;
+  background-color: black;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Adjust the z-index as needed */
 }
 
-.details {
-  margin-right: 30px;
+.details-form {
+  display: flex;
   justify-content: space-between;
 }
 
-.details.active {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: black;
-  width: 100%;
-}
-
-.details a {
-  color: #fff;
+.details-form a {
+  color: white;
   text-decoration: none;
-  transition: color 0.3s ease;
-  padding: 10px;
-  font-weight: 700;
-  font-family: sans-serif;
+  padding: 10px 60px;
+  border-radius: 5px;
 }
 
-.details a:hover {
-  color: #ccc;
-}
-
-.menu-toggle {
-  display: none;
-}
-
-/* Responsive styles */
-@media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    align-items: stretch;
-    padding: 10px;
-  }
-
-  .details {
-    margin: 0;
-    position: relative;
-    margin-bottom: 10px;
-  }
-
-  .menu-toggle {
-    display: block;
-    color: #fff;
-    background-color: black;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .menu-toggle:hover,
-  .menu-toggle.active {
-    background-color: #333;
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1440px) {
-  .container {
-    padding: 15px;
-  }
-}
-
-@media screen and (min-width: 1441px) {
-  .container {
-    padding: 30px;
-  }
+.details-form a:hover {
+  background-color: #555;
 }

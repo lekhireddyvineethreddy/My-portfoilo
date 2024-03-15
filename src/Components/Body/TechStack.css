@@ -1,0 +1,60 @@
+.tech-stack{
+    background-color: #242424;
+    margin-top: 0px;
+}
+
+.tech-stack-heading{
+    display: flex;
+    justify-content: center;
+    color: #e5e5e5;
+    font-weight: 700;
+    padding: 0px;
+    margin-top: 0px;
+    font-size: 38px;
+    margin-bottom: 120px;
+}
+
+.tech-item1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+    
+}
+.tech-item2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:50px;
+    margin-top: 20px;
+}
+.tech-description{
+
+    color: #e5e5e5;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 2px;
+
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0; 
+    }
+    50% {
+        opacity: 1; 
+    }
+    100% {
+        opacity: 0; 
+    }
+}
+
+
+.tech-item1 img,.tech-item2 img {
+    animation: fadeIn 4s ease infinite; 
+}
+
+
+
+ 
+  
+  

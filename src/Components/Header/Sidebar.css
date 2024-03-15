@@ -1,0 +1,13 @@
+.Social-icons {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: fixed;
+    top: 28%;
+    right: 20px;
+    gap: 90px;
+    padding: 20px;
+}
+
