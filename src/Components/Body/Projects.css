@@ -1,0 +1,71 @@
+.projects-container {
+    background-color: #242424;
+    padding: 20px;
+    color: white;
+    text-align: center; /* Center align the title */
+}
+
+.projects-title {
+    margin-bottom: 20px; /* Add some space between title and projects */
+    font-size: 38px;
+    font-weight: 700; /* Adjust the font size as needed */
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center; /* Center align the grid */
+}
+
+.project-card {
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-thumbnail {
+    display: block;
+    overflow: hidden;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+}
+
+.project-details {
+    padding: 20px;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-stack {
+    margin-bottom: 10px;
+}
+
+.project-links {
+    margin-bottom: 10px;
+}
+
+.project-link-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.project-description {
+    font-size: 1rem;
+    line-height: 1.5;
+}
