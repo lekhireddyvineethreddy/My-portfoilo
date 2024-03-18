@@ -1,24 +1,28 @@
 .contact-section {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
+    background-color: #242424;
   }
   
   .contact-heading {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #efefef;
+    text-align: center;
+    margin-top: 0px;
   }
   
   .contact-message {
     font-size: 16px;
-    margin-bottom: 20px;
+   padding: 10px;
+   text-align: center;
+   font-weight: bold;
   }
   
   .contact-options {
     display: flex;
-    gap: 10px;
+    gap: 70px;
     margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
   }
   
   .contact-link {
@@ -26,7 +30,7 @@
     color: #333;
     padding: 8px 12px;
     background-color: #ddd;
-    border-radius: 5px;
+    border-radius: 25px;
   }
   
   .contact-icon {
@@ -40,23 +44,33 @@
   
   .input-group {
     display: flex;
-    gap: 10px;
+    gap: 70px;
     margin-bottom: 20px;
+    justify-content: center;
+    padding: 10px;
   }
   
-  .contact-input,
-  .contact-textarea {
+  .contact-input{
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 25px;
     border: 1px solid #ccc;
+
+  }
+
+  .contact-textarea {
+    padding: 35px;
+    border-radius: 70px;
+    border: 1px solid #ccc;
+    margin: 10px;
   }
   
   .contact-submit {
-    padding: 10px 20px;
+    margin: 25px;
+    padding: 15px 20px;
     background-color: #007bff;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 45px;
     cursor: pointer;
   }
   
